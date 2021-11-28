@@ -1,0 +1,2021 @@
+<!doctype html>
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+    .v1{
+      border-left: 1px solid lightgrey;
+      height: 300px;
+      margin-right: -10px;
+  
+    }
+    .mp{
+      margin-left: -150px;
+      filter: invert(100%);
+    }
+    .mn{
+      margin-right: -150px;
+      filter: invert(100%);
+    }
+    .ft{
+      
+      background-color: black;
+    }
+    .copy{
+      background-color: darkblue;
+      
+    }
+    .vl{
+      height: 2px;
+      background-color: grey;
+      width: 40px;
+
+    }
+    .scrollable-menu{
+      height: auto;
+      max-height: 200px;
+      overflow-x: hidden;
+    }
+    .responsive{
+      width: 100%;
+      height: auto;
+    }
+    
+
+  </style>
+</head>
+  <body>
+  
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+   
+
+
+
+   
+  <div class="row"> 
+<div class="container-fluid">
+<div class="jumbotron col-sm-12 text-center" style="margin-bottom: 0px;">
+  
+   <h1 class="border">Krishna Soap Factory</h1>
+  <p>Tag line of Krishna soap factory</p> 
+</div>
+</div>
+</div>
+
+
+
+
+<div class="row">
+<nav class="col-sm-12 navbar navbar-expand-sm bg-dark navbar-dark ">
+  
+
+  <a class="navbar-brand" role="button" data-bs-toggle="popover" title="Popover Header" 
+  data-bs-content="LOGO">
+    <img src="balaji.jpg" class="img-thumbnail img-fluid ml-4" style="width: 35px;">
+  
+<script>
+$(document).ready(function(){
+  $('[data-bs-toggle="popover"]').popover();   
+});
+</script>
+  </a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse"  id="nav" >
+
+    
+    <ul class="nav nav-tabs font-weight-bold" role="tablist" >
+    <li class="nav-item">
+      <a class="nav-link active text-success" data-toggle="tab"  href="#home">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-success" data-toggle="tab" href="#About">About us</a>
+    </li>
+   <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-success" href="#" data-toggle="dropdown">Products</a>
+      <div class="dropdown-menu scrollable-menu mt-2" role="menu" style="background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.5); color: #f1f1f1;"> 
+        <a class="dropdown-item text-warning font-weight-bold" data-toggle="tab" href="#Dishwashing">Dishwashing Liquid</a>
+        <a class="dropdown-item text-warning font-weight-bold" data-toggle="tab" href="#Liquid">Liquid Detergent</a>
+        <a class="dropdown-item text-warning font-weight-bold" data-toggle="tab" href="#Handwash">Liquid Handwash</a>
+        <a class="dropdown-item text-warning font-weight-bold" data-toggle="tab" href="#Floor">Floor Cleaner</a>
+        <a class="dropdown-item text-warning font-weight-bold" data-toggle="tab" href="#Tile">Tile Cleaner</a>
+        <a class="dropdown-item text-warning font-weight-bold" data-toggle="tab" href="#Toilet">Toilet Cleaner</a>
+        <a class="dropdown-item text-warning font-weight-bold" data-toggle="tab" href="#Glass">Glass Cleaner</a>
+        <a class="dropdown-item text-warning font-weight-bold" data-toggle="tab" href="#Cake">Cake Soap</a>
+        <a class="dropdown-item text-warning font-weight-bold" data-toggle="tab" href="#Coal">Coal</a>
+        <a class="dropdown-item text-warning font-weight-bold" data-toggle="tab" href="#Glycerine">Glycerine Soap</a>
+        <a class="dropdown-item text-warning font-weight-bold" data-toggle="tab" href="#Detergent">Detergent Powder</a>
+        <a class="dropdown-item text-warning font-weight-bold" data-toggle="tab" href="#Sanitizer">Hand Sanitizer</a>
+        <a class="dropdown-item text-warning font-weight-bold" data-toggle="tab" href="#Pitambari Shining Powder">Pitambari Shining Powder
+        </a>
+        <a class="dropdown-item text-warning font-weight-bold" data-toggle="tab" href="#Caustic soda">Caustic soda</a>
+     
+
+      </div>
+    </li>
+    <li class="nav-item">
+      <a href="#contact" class="nav-link text-success" data-toggle="tab">Contact Us</a>
+    </li>
+  </ul>
+</div>
+</div>
+</nav>
+</div>
+<!--tabs-->  
+<div class="tab-content">
+    
+
+
+
+    <!--HOME-->
+  <div id="home" class="tab-pane active">
+
+  <div class="row">
+    <div class="col-sm-12 container-fluid responsive">
+        <div id="demo" class="carousel slide mr-n3" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="C:\Users\HP\Desktop\New folder\my website\label.jpg" width="100%" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="D:\wesite\carousel2.jpg"  width="100%" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="D:\wesite\carousel3.jpg" width="100%" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+  </div>
+</div>
+
+
+ <div class="container">
+ <div class="row text-center">
+  <h4 class="col-sm-12 mt-5">WELCOME TO THE WORLD OF SOAP</h4>
+    <div class="mt-5 row">
+    <div class="col-sm-3">
+      <img src="D:\wesite\natural-400x400.png" width="100" height="100">
+      <h5 class="mt-2">NATURAL</h5>
+      <p>A product is as good as the ingredient. We use completely safe, natural and toxic-free ingredients in our recipes.</p>
+    </div>
+<div class="v1"></div>
+    <div class="col-sm-3">
+      <img src="D:\wesite\handmade.png" width="100" height="100">
+      <h5 class="mt-2">HANDCRAFT</h5>
+      <p>Every product we offer is made by hand, making it unique in its own way. This is the reason no two pieces of the same product are identical looking.</p>
+    </div>
+
+    <div class="v1 col-sm-3">
+      <img src="D:\wesite\sustainable.png" width="100" height="100">
+      <h5 class="mt-2">SUSTAINABLE</h5>
+      <p>To help preserve our planet we try bring sustainability into every decision we make. We have substantially reduced plastic packaging. 99% of our products now come in paper and glass packaging.</p>
+    </div>
+
+    <div class="v1 col-sm-3">
+      <img src="D:\wesite\crueltyfree.png" width="100" height="100">
+      <h5 class="mt-2">CRUELTY FREE</h5>
+      <p>Animals are supposed to be loved, not the be tested upon. Our products are 100% vegetarian and not tested on animals.</p>
+    </div>
+</div>
+   </div>
+<div class="row pt-5 mt-3">
+<div class="col-sm-4">
+<img src="D:\wesite\Untitled-design-18-800x800 (1).png"  class="img-fluid" >  
+</div>
+<!--why chose us -->
+<div class="col-sm-8">
+  <h5>WHY CHOOSE US?</h5>
+  <p>Guided by sustainability, we have always believed that beauty and environment can co-exist.
+    <br><br>We create products which are healthy- both for your body and the planet.<br><br>Made with the freshest ingredients, our creations deliver high-performance results.We take immense pride in offering completely toxic- free, natural, cruelty-free and eco-friendly skincare + haircare solutions.<br><br>Newest member to our family is solid shampoo bars. No plastic bottles, no wastage, no unnecessary packaging, shampoo bars is our initiative towards a more conscious and plastic-free lifestyle.<br><br>Let’s contribute in our own little ways to preserve and protect our Mother Earth 🌏</p>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="container mt-5">
+<div class="row">
+<div class="col-sm-4 mt-5 ">
+  <h3>OUR BESTSELLERS</h3>
+  <p>Try out our best selling products.<br> We are sure that you’re gonna <br>love them !</p>
+</div>
+
+<div class="col-sm-8">
+   <div id="Example" class="carousel slide carousel-multi-item mt-5"  data-ride="carousel">
+     
+
+    <a class="carousel-control-prev" href="#Example" data-slide="prev">
+    <span class="carousel-control-prev-icon mp"></span>
+  </a>
+  <a class="carousel-control-next" href="#Example" data-slide="next">
+    <span class="carousel-control-next-icon mn"></span>
+  </a>
+
+
+     <ol class="carousel-indicators">
+       <li data-target="Example" data-slide-to="0" class="active"></li>
+       <li data-target="Example" data-slide-to="1" ></li>
+       <li data-target="Example" data-slide-to="2" ></li>
+     </ol>
+
+
+     <div class="carousel-inner " role="listbox">
+       
+
+       <!--First Slide-->
+       <div class="carousel-item active">
+         
+
+         <div class="row">
+           
+
+           <div class="col-sm-4">
+             <div class="card mb-2">
+               <img src="D:\wesite\carousel1.jpg" class="card-img-top">
+               <div class="card-body">
+                 <div class="card-title">Tab Soap 10KG</div>
+                
+               </div>
+             </div>
+           </div>
+
+           <div class="col-sm-4 clearflix d-none d-md-block">
+             <div class="card md-2">
+               <img src="D:\wesite\carousel1.jpg" class="card-img-top">
+               <div class="card-body">
+                 <div class="card-title">Dishwashing Liquid</div>
+                 
+               </div>
+             </div>
+           </div>
+
+           <div class="col-sm-4 clearflix d-none d-md-block">
+             <div class="card md-2">
+               <img src="D:\wesite\carousel1.jpg" class="card-img-top">
+               <div class="card-body">
+                 <div class="card-title">Floor Cleaner</div>
+                 
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+
+<!--second slide-->
+<div class="carousel-item">
+  
+
+  <div class="row">
+  
+
+    <div class="col-sm-4">
+      <div class="card mb-2">
+        <img src="D:\wesite\carousel1.jpg"  class="card-img-top">
+        <div class="card-body">
+          <div class="card-title">Tile Cleaner</div>
+                 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4 clearflix d-none d-md-block">
+      <div class="card mb-2">
+         <img src="D:\wesite\carousel1.jpg"  class="card-img-top">
+        <div class="card-body">
+          <div class="card-title">Toilet Cleaner</div>
+                 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4 clearflix d-none d-md-block">
+      <div class="card mb-2">
+         <img src="D:\wesite\carousel1.jpg"  class="card-img-top">
+        <div class="card-body">
+          <div class="card-title">Glass Cleaner</div>
+                 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Third slide-->
+<div class="carousel-item">
+  
+  <div class="row">
+  
+    <div class="col-sm-4">
+      <div class="card md-2">
+        <img src="D:\wesite\carousel1.jpg"  class="card-img-top">
+        <div class="card-body">
+          <div class="card-title">Bar Soap</div>
+                 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4 clearflix d-none d-md-block">
+      <div class="card mb-2">
+         <img src="D:\wesite\carousel1.jpg"  class="card-img-top">
+        <div class="card-body">
+          <div class="card-title">Tab Soap 5KG</div>
+                 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4 clearflix d-none d-md-block">
+      <div class="card mb-2">
+         <img src="D:\wesite\carousel1.jpg"  class="card-img-top">
+        <div class="card-body">
+          <div class="card-title">Detergent Powder</div>
+                 
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+     </div>
+    
+<!--About-->
+    
+
+<div id="About" class="container tab-pane fade">
+
+
+<div class="mt-4">
+  <h5><b>OUR STORY</b></h5>
+  <p class="mt-3">
+    Bright Wash had its humble beginnings when our founder Mahima Dissoria worked with her mother to create beautiful bars of soap as New Year presents for friends in December 2014. They were overwhelmed with the appreciation that they received for the luxurious quality of their chemical free, skin friendly products. When they continued to be flooded with requests for more, Mahima who was all of 20 years old and still pursuing a business degree- took a rather bold decision. She gave up the 9 to 5 corporate job offer to pursue her passion of delivering quality. Bright Wash was born out of the simple frustration with the lack of toxic-free and natural products in the market. For the longest time, Bright Wash was based out of a house kitchen where Mahima could often be seen cooking soaps and whipping body butters by herself. Sales came from every weekend farmers’ market.<br><br>Slowly, the idea took root and expanded -driven by honest appreciation from strangers who became a part of the Bright Wash family. The driving force behind our success has always been customer satisfaction and trust.<br><br>Our breakthrough achievement came in the form of affiliation with MSME and Khadi India- two of the biggest Government of India organisations encouraging start-up initiatives in the country.<br><br>Since then, there has been no looking back. Bright Wash now has 25 product categories and 150 SKUs under its belt. With Pan India shipping facility, we are trying to add more customers to our large family. Our aim is to take the goodness of our homegrown brand to many more people who want to lead a toxic-free & sustainable lifestyle.
+  </p>
+</div>
+
+<div class="mt-4">
+  <h5><b>OUR IMPACT</b></h5>
+  <p class="mt-3">
+    We believe that every business has a moral obligation towards the society it operates in and Bright Wash has never walked away from its responsibilities.<br><br>Since the inception of the brand in 2015, Bright Wash has facilitated the vocational skill training of soap-making for visually-impaired youths at the Blind Relief Association, New Delhi. We are immensely privileged to partner with them and constantly learn from their spirit of grit and resilience.<br><br>With the increased awareness around maintaining personal hygiene in light of the global pandemic, Soap Square is also in works to train women in rural India the art of making soaps. With this initiative, we hope to empower women SHGs in Indian villages by generating employment and by also instructing them in sanitary practices.
+  </p>
+</div>
+
+<div class="mt-4">
+  <h5><b>OUR MISSION</b></h5>
+  <p class="mt-3">BRIGHT WASH is driven by the goal to offer high quality, unadulterated and effective skin and hair care products. We strive to create an impact with everything that we do. Our products are handmade, eco-friendly, cruelty- free and entirely bereft of parabens, SLS, phthalates and other harmful chemicals.<br><br>To help save our planet and our friends who live on it, we take every decision consciously, after carefully weighing the consequences. You will find that we prefer sustainable, bio-degradable packaging and offer unique solutions like shampoo bars to prevent unnecessary waste. We also pride ourselves on being an equal opportunity employer- half of our entire workforce is made up of women.</p>
+</div>
+
+
+
+
+
+</div>
+
+
+<!--Dishwashing-->
+
+
+<div id="Dishwashing" class="container tab-pane fade">
+     
+     <div class="row pt-5">
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" width="300" height="300">
+
+</div>
+
+
+<div class="col-sm-9">
+  <h2>Swadeshi Floor Cleaner</h2>
+  <div class="vl mt-3"></div>
+
+
+<ul class="nav nav-tabs pt-3" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#D1" type="button" role="tab">1Ltr</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#D5" type="button" role="tab" >5Ltr</button>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+  
+<!--1kg--> 
+
+  <div class="tab-pane fade show active" id="D1" role="tabpanel" aria-labelledby="home-tab">
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 1kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+          <button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹50.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Penetrates and emulsifies heavy grease and food particles.</li>
+         <li>Mild and gentle to the hands.</li>
+<li>Easily dissolves in water.</li>
+
+    </ul>
+  </div>
+  </div>
+</div>
+
+
+<!--5KG-->
+
+  <div class="tab-pane fade" id="D5" role="tabpanel" aria-labelledby="profile-tab">
+    
+
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+<button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹80.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+     <ul class="mt-2">
+      <li>Penetrates and emulsifies heavy grease and food particles.</li>
+         <li>Mild and gentle to the hands.</li>
+<li>Easily dissolves in water.</li>
+
+    </ul>
+
+  </div>
+  </div>
+
+  </div>
+ 
+</div>
+
+    </div>
+</div>
+
+</div>
+
+
+
+
+<!--Liquid-->
+<div id="Liquid" class="container tab-pane fade">
+   
+
+<div class="row pt-5">
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" width="300" height="300">
+
+</div>
+
+
+<div class="col-sm-9">
+  <h2>Swadeshi Floor Cleaner</h2>
+  <div class="vl mt-3"></div>
+
+
+<ul class="nav nav-tabs pt-3" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#L1" type="button" role="tab">1KG</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#L5" type="button" role="tab" >5KG</button>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+  
+<!--1kg--> 
+
+  <div class="tab-pane fade show active" id="L1" role="tabpanel" aria-labelledby="home-tab">
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 1kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+          <button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹50.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Tough stain removal in 1 wash.</li>
+         <li>Colour protection.</li>
+<li>Fresh fragrance.</li>
+
+    </ul>
+  </div>
+  </div>
+</div>
+
+
+<!--5KG-->
+
+  <div class="tab-pane fade" id="L5" role="tabpanel" aria-labelledby="profile-tab">
+    
+
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+<button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹80.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+   <ul class="mt-2">
+      <li>Tough stain removal in 1 wash.</li>
+         <li>Colour protection.</li>
+<li>Fresh fragrance.</li>
+
+    </ul>
+  </div>
+  </div>
+
+  </div>
+ 
+</div>
+
+    </div>
+</div>
+
+</div>
+
+<!--Handwash-->
+
+<div id="Handwash" class="container tab-pane fade">
+   
+   <div class="row pt-5">
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" width="300" height="300">
+
+</div>
+
+
+<div class="col-sm-9">
+  <h2>Swadeshi Floor Cleaner</h2>
+  <div class="vl mt-3"></div>
+
+
+<ul class="nav nav-tabs pt-3" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#H1" type="button" role="tab">1kg</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#H5" type="button" role="tab" >5KG</button>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+  
+<!--1kg--> 
+
+  <div class="tab-pane fade show active" id="H1" role="tabpanel" aria-labelledby="home-tab">
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 1kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+          <button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹50.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Kills 99.9% of germs including E.coli and flu virus.</li>
+         <li>Original Pine Fragrance Hand Wash</li>
+<li>Anti-Bacterial</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+  </div>
+  </div>
+</div>
+
+
+<!--5KG-->
+
+  <div class="tab-pane fade" id="H5" role="tabpanel" aria-labelledby="profile-tab">
+    
+
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+<button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹80.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Kills 99.9% of germs including E.coli and flu virus.</li>
+         <li>Original Pine Fragrance Hand Wash.</li>
+<li>Anti-Bacterial</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+
+  </div>
+  </div>
+
+  </div>
+ 
+</div>
+
+    </div>
+</div>
+  
+</div>
+
+
+
+<!--Floor-->
+<div id="Floor" class="container tab-pane fade">
+   
+  
+
+
+ <div class="row pt-5">
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" width="300" height="300">
+
+</div>
+
+
+<div class="col-sm-9">
+  <h2>Swadeshi Floor Cleaner</h2>
+  <div class="vl mt-3"></div>
+
+
+<ul class="nav nav-tabs pt-3" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#F1" type="button" role="tab">1kg</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#F5" type="button" role="tab" >5KG</button>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+  
+<!--1kg--> 
+
+  <div class="tab-pane fade show active" id="F1" role="tabpanel" aria-labelledby="home-tab">
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 1kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+          <button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹50.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Give your home 10x better cleaning</li>
+         <li>Proven to kill 99.9% germs</li>
+<li>Helps fight odour and any unpleasant smell</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+  </div>
+  </div>
+</div>
+
+
+<!--5KG-->
+
+  <div class="tab-pane fade" id="F5" role="tabpanel" aria-labelledby="profile-tab">
+    
+
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+<button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹80.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Give your home 10x better cleaning</li>
+         <li>Proven to kill 99.9% germs</li>
+<li>Helps fight odour and any unpleasant smell</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+
+  </div>
+  </div>
+
+  </div>
+ 
+</div>
+
+    </div>
+</div>
+
+
+
+</div>
+<!--floor close-->
+
+
+
+<!--Tile-->
+
+<div id="Tile" class="container tab-pane fade">
+   
+   <div class="row pt-5">
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" width="300" height="300">
+
+</div>
+
+
+<div class="col-sm-9">
+  <h2>Swadeshi Floor Cleaner</h2>
+  <div class="vl mt-3"></div>
+
+
+<ul class="nav nav-tabs pt-3" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#T1" type="button" role="tab">1kg</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#T5" type="button" role="tab" >5KG</button>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+  
+<!--1kg--> 
+
+  <div class="tab-pane fade show active" id="T1" role="tabpanel" aria-labelledby="home-tab">
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 1kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+          <button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹50.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Give your home 10x better cleaning</li>
+         <li>Proven to kill 99.9% germs</li>
+<li>Helps fight odour and any unpleasant smell</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+  </div>
+  </div>
+</div>
+
+
+<!--5KG-->
+
+  <div class="tab-pane fade" id="T5" role="tabpanel" aria-labelledby="profile-tab">
+    
+
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+<button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹80.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Give your home 10x better cleaning</li>
+         <li>Proven to kill 99.9% germs</li>
+<li>Helps fight odour and any unpleasant smell</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+
+  </div>
+  </div>
+
+  </div>
+ 
+</div>
+
+    </div>
+</div>
+  
+</div>
+
+    
+<!--Toilet-->
+
+<div id="Toilet" class="container tab-pane fade">
+
+
+ <div class="row pt-5">
+  <div class="col-sm-3">
+      <img src="WhatsApp Image 2021-06-26 at 1.11.45 PM.jpeg" class="img-thumbnail border-primary shadow-lg" width="300" height="300">
+
+</div>
+
+
+<div class="col-sm-9">
+  <h2>Swadeshi Active Fresh</h2>
+  <div class="vl mt-3"></div>
+
+
+<ul class="nav nav-tabs pt-3" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#ho" type="button" role="tab">500g</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#po" type="button" role="tab" >1KG</button>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+  
+<!--500g--> 
+
+  <div class="tab-pane fade show active" id="ho" role="tabpanel">
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="WhatsApp Image 2021-06-26 at 1.11.45 PM.jpeg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+          <button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹50.00</h2>
+    <ul>
+      <li>For Cleaning Toilet</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>10 times more yellowish stain removal</li>
+         <li>Kills 99.9% of germs</li>
+<li>Helps fight odour and any unpleasant smell</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+  </div>
+  </div>
+</div>
+
+
+<!--1KG-->
+
+  <div class="tab-pane fade" id="po" role="tabpanel">
+    
+
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="WhatsApp Image 2021-06-26 at 1.11.45 PM.jpeg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+<button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+
+<div class="col-sm-9">
+<h2 class="mt-3">₹80.00</h2>
+    <ul>
+      <li>For Cleaning Toilet</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>10 times more yellowish stain removal</li>
+         <li>Kills 99.9% of germs</li>
+<li>Helps fight odour and any unpleasant smell</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+
+  </div>
+  </div>
+
+  </div>
+ 
+</div>
+
+    </div>
+</div>
+</div>
+
+<!--toilet colse-->
+
+
+
+
+<!--Glass-->
+
+<div id="Glass" class="container tab-pane fade">
+
+   <div class="row pt-5">
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" width="300" height="300">
+
+</div>
+
+
+<div class="col-sm-9">
+  <h2>Swadeshi Floor Cleaner</h2>
+  <div class="vl mt-3"></div>
+
+
+<ul class="nav nav-tabs pt-3" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#G1" type="button" role="tab">1kg</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#G5" type="button" role="tab" >5KG</button>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+  
+<!--1kg--> 
+
+  <div class="tab-pane fade show active" id="G1" role="tabpanel" aria-labelledby="home-tab">
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 1kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+          <button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹50.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Quickly and easily removes dirt and grime</li>
+         <li>Proven to kill 99.9% germs</li>
+<li>Increases clarity and visibility</li>
+<li>100% Made in the INDIA</li>
+    </ul>
+  </div>
+  </div>
+</div>
+
+
+<!--5KG-->
+
+  <div class="tab-pane fade" id="G5" role="tabpanel" aria-labelledby="profile-tab">
+    
+
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+<button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹80.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Quickly and easily removes dirt and grime</li>
+         <li>Proven to kill 99.9% germs</li>
+<li>Increases clarity and visibility</li>
+<li>100% Made in the INDIA</li>
+    </ul>
+
+  </div>
+  </div>
+
+  </div>
+ 
+</div>
+
+    </div>
+</div>
+  
+</div>
+
+<!--Cake-->
+
+<div id="Cake" class="container tab-pane fade">
+   
+   <div class="row pt-5">
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" width="300" height="300">
+
+</div>
+
+
+<div class="col-sm-9">
+  <h2>Swadeshi Floor Cleaner</h2>
+  <div class="vl mt-3"></div>
+
+
+<ul class="nav nav-tabs pt-3" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#C1" type="button" role="tab">1kg</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#C5" type="button" role="tab" >5KG</button>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+  
+<!--1kg--> 
+
+  <div class="tab-pane fade show active" id="C1" role="tabpanel" aria-labelledby="home-tab">
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 1kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+          <button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹50.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Give your home 10x better cleaning</li>
+         <li>Proven to kill 99.9% germs</li>
+<li>Helps fight odour and any unpleasant smell</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+  </div>
+  </div>
+</div>
+
+
+<!--5KG-->
+
+  <div class="tab-pane fade" id="C5" role="tabpanel" aria-labelledby="profile-tab">
+    
+
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+<button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹80.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Give your home 10x better cleaning</li>
+         <li>Proven to kill 99.9% germs</li>
+<li>Helps fight odour and any unpleasant smell</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+
+  </div>
+  </div>
+
+  </div>
+ 
+</div>
+
+    </div>
+</div>
+  
+</div>
+
+<!--Glycerine-->
+<div id="Glycerine" class="container tab-pane fade">
+
+
+<P>i AM KESHAV</P>
+
+<div class="row pt-5">
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" width="300" height="300">
+
+</div>
+
+
+<div class="col-sm-9">
+  <h2>Swadeshi Floor Cleaner</h2>
+  <div class="vl mt-3"></div>
+
+
+<ul class="nav nav-tabs pt-3" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#Gl1" type="button" role="tab">1kg</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#Gl5" type="button" role="tab" >5KG</button>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+  
+<!--1kg--> 
+
+  <div class="tab-pane fade show active" id="Gl1" role="tabpanel" aria-labelledby="home-tab">
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 1kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+          <button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹50.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Give your home 10x better cleaning</li>
+         <li>Proven to kill 99.9% germs</li>
+<li>Helps fight odour and any unpleasant smell</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+  </div>
+  </div>
+</div>
+
+
+<!--5KG-->
+
+  <div class="tab-pane fade" id="Gl5" role="tabpanel" aria-labelledby="profile-tab">
+    
+
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+<button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹80.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Give your home 10x better cleaning</li>
+         <li>Proven to kill 99.9% germs</li>
+<li>Helps fight odour and any unpleasant smell</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+
+  </div>
+  </div>
+
+  </div>
+ 
+</div>
+
+    </div>
+</div>
+
+  </div>
+  <!--Glycerine close-->
+
+
+  <!--Detergent-->
+<div id="Detergent" class="container tab-pane fade">
+
+
+<P>i AM KESHAV detergent</P>
+
+<div class="row pt-5">
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" width="300" height="300">
+
+</div>
+
+
+<div class="col-sm-9">
+  <h2>Swadeshi Floor Cleaner</h2>
+  <div class="vl mt-3"></div>
+
+
+<ul class="nav nav-tabs pt-3" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#Detergent1" type="button" role="tab">1kg</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#Detergent5" type="button" role="tab" >5KG</button>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+  
+<!--1kg--> 
+
+  <div class="tab-pane fade show active" id="Detergent1" role="tabpanel" aria-labelledby="home-tab">
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 1kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+          <button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹50.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Give your home 10x better cleaning</li>
+         <li>Proven to kill 99.9% germs</li>
+<li>Helps fight odour and any unpleasant smell</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+  </div>
+  </div>
+</div>
+
+
+<!--5KG-->
+
+  <div class="tab-pane fade" id="Detergent5" role="tabpanel" aria-labelledby="profile-tab">
+    
+
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+<button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹80.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Give your home 10x better cleaning</li>
+         <li>Proven to kill 99.9% germs</li>
+<li>Helps fight odour and any unpleasant smell</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+
+  </div>
+  </div>
+
+  </div>
+ 
+</div>
+
+    </div>
+</div>
+
+  </div>
+  <!--Detergent close-->
+
+
+  <!--Sanitizer-->
+<div id="Sanitizer" class="container tab-pane fade">
+
+
+<P>i AM KESHAV Sanitizer</P>
+
+<div class="row pt-5">
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" width="300" height="300">
+
+</div>
+
+
+<div class="col-sm-9">
+  <h2>Swadeshi Floor Cleaner</h2>
+  <div class="vl mt-3"></div>
+
+
+<ul class="nav nav-tabs pt-3" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#S1" type="button" role="tab">1kg</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#S5" type="button" role="tab" >5KG</button>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+  
+<!--1kg--> 
+
+  <div class="tab-pane fade show active" id="S1" role="tabpanel" aria-labelledby="home-tab">
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 1kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+          <button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹50.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Give your home 10x better cleaning</li>
+         <li>Proven to kill 99.9% germs</li>
+<li>Helps fight odour and any unpleasant smell</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+  </div>
+  </div>
+</div>
+
+
+<!--5KG-->
+
+  <div class="tab-pane fade" id="S5" role="tabpanel" aria-labelledby="profile-tab">
+    
+
+<div class="row pt-3">
+
+  <div class="col-sm-3">
+      <img src="floor cleaner 5kg.jpg" class="img-thumbnail border-primary shadow-lg" style="height: 210px;">
+<button href="#" data-toggle="popover" type="button" class="btn btn-primary mt-3 ml-4" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</div>
+<div class="col-sm-9">
+<h2 class="mt-3">₹80.00</h2>
+    <ul>
+      <li>For Surface Cleaner</li>
+    </ul>
+    <h3 style="color: grey;">Product Features</h3>
+    <ul class="mt-2">
+      <li>Give your home 10x better cleaning</li>
+         <li>Proven to kill 99.9% germs</li>
+<li>Helps fight odour and any unpleasant smell</li>
+<li>Better than the ordinary bleach, acid and phenyl</li>
+    </ul>
+
+  </div>
+  </div>
+
+  </div>
+ 
+</div>
+
+    </div>
+</div>
+
+  </div>
+  <!--Sanitizer close-->
+
+
+    <!--contact us-->
+    <div id="contact" class="container tab-pane fade"><br>
+      
+<h1 class="text-center">OUR FRIENDLY TEAM FROM BRIGHT WASH</h1>
+      <p class="text-center">is here to help. Here’s how you can reach to us …</p>
+
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-8 jumbotron ">
+            <div class="text-center">
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" 
+class="bi bi-envelope icon-green" viewBox="0 0 16 16">
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+</svg>
+</div>
+
+<style>
+  .icon-green{
+    color:blue;
+    margin-top: -50px;
+  }
+</style>
+
+
+<h2 class="text-center text-primary">EMAIL US</h2>
+<p class="text-center">Like our products or have a question? Drop us a note by filling up the form below.</p>
+<p>If you are reporting a problem with one of our products, please be sure to include your address and a telephone number where you can be reached during the day so we can contact you for further information.</p>
+<p>Unilever does not collect personal information from children under 13.</p>
+<small>*Indicate required information</small>
+<p class="mt-3">Please tell us the reason for your enquiry*</p>
+<select class="form-select w-75">
+  <option class="disable">Choose an option</option>
+  <option>I have a question</option>
+  <option>I have a concern</option>
+</select>
+          </div>
+
+          <div class="col-sm-4 jumbotron ml-3 mr-n5">
+            
+<div class="text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" 
+            class="bi bi-telephone icon-green" viewBox="0 0 16 16">
+  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg>
+<h2 class="text-center text-primary">CONTACT US</h2>
+<p class="font-weight-bold">Number: +9460261999</p>
+<p>9 am - 9 pm IST</p>
+<p>7 Days</p>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+  
+
+  <!--footer-->
+<footer class="page-footer pt-5 mt-4">
+  
+  <div class="container-fluid bg-primary">
+
+    <div class="row text-light ">
+      <div class="col-sm-6  mt-2 mb-n1 ml-2">
+        <p>Get connected with us on social networks!</p>
+
+      </div>
+      
+      <div class="col-sm-5 mt-2 text-right">
+        <div class="ml-5">
+        <a href="#" style="text-decoration: none; color: white;">
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook ml-2" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg></a>
+
+<a href="#" style="text-decoration: none; color: white;">
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter ml-2" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+</svg></a>
+
+
+<a href="#" style="text-decoration: none; color: white;">
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-google ml-2" viewBox="0 0 16 16">
+  <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+</svg></a>
+
+
+<a href="#" style="text-decoration: none; color: white;">
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin ml-2" viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+</svg></a>
+
+
+<a href="#" style="text-decoration: none; color: white;">
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram  ml-2" viewBox="0 0 16 16">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+</svg></a>
+
+
+      </div>
+    </div>
+    </div>
+
+</div>
+
+
+
+<div class="container-fluid ft">
+  <div class="row text-light pb-5">
+      
+
+<!--company-->
+
+      <div class="col-sm-3 pt-5 mt-4 ">
+        <h5 class="font-weight-bold">BRIGHT WASH</h5>
+        <div class="vl mb-2"></div>
+        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+
+
+<!--products-->
+      <div class="col-sm-3 pt-5 mt-4 ">
+
+        <h5>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop-window mt-n1" viewBox="0 0 16 16">
+  <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z"/>
+</svg>
+        PRODUCTS</h5>
+<div class="vl mb-2"></div>
+
+<div>
+  
+<a href="#" class="" style="text-decoration: none; color: white;" data-toggle="modal" data-target="#myModal">
+    <p>Tab Soap 10KG</p>
+  </a>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" style="color: blue;">Tab Soap 10KG</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body text-center" style="color: blue;">
+          <img src="C:\Users\HP\Desktop\New folder\my website\floor cleaner 1kg.jpg" height="400px" width="400px" >
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer" style="text-align: left;">
+          
+
+          <h3 style="color: blue;" class="mr-auto">₹380</h3>
+
+          <button data-toggle="popover" data-trigger="hover" type="button" class="btn btn-primary" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>   
+
+
+<!--Liquid Handwash-->
+
+     <div>
+
+  
+
+<a href="#" class="" style="text-decoration: none; color: white;" data-toggle="modal" data-target="#L">
+    <p class="mt-n3">Liquid Handwash</p>
+  </a>
+
+  <!-- The Modal -->
+  <div class="modal" id="L">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" style="color: blue;">Liquid Handwash</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body text-center" style="color: blue;">
+          <img src="C:\Users\HP\Desktop\New folder\my website\floor cleaner 1kg.jpg" height="400px" width="400px" >
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer" style="text-align: left;">
+          
+
+          <h3 style="color: blue;" class="mr-auto">₹380</h3>
+
+          <button data-toggle="popover" data-trigger="hover" type="button" class="btn btn-primary" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+
+
+ 
+
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+</div>
+
+ 
+
+     <div>
+
+  <!--Floor Cleaner-->
+
+<a href="#" class="" style="text-decoration: none; color: white;" data-toggle="modal" data-target="#F">
+    <p class="mt-n3">Floor Cleaner</p>
+  </a>
+
+  <!-- The Modal -->
+  <div class="modal" id="F">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" style="color: blue;">Floor Cleaner</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body text-center" style="color: blue;">
+          <img src="C:\Users\HP\Desktop\New folder\my website\floor cleaner 1kg.jpg" height="400px" width="400px" >
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer" style="text-align: left;">
+          
+
+          <h3 style="color: blue;" class="mr-auto">₹380</h3>
+
+          <button data-toggle="popover" data-trigger="hover" type="button" class="btn btn-primary" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+
+
+ 
+
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+     <div>
+
+  
+<!--Toilet Cleaner-->
+<a href="#" class="" style="text-decoration: none; color: white;" data-toggle="modal" data-target="#T">
+    <p class="mt-n3">Toilet Cleaner</p>
+  </a>
+
+  <!-- The Modal -->
+  <div class="modal" id="T">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" style="color: blue;">Toilet Cleaner</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body text-center" style="color: blue;">
+          <img src="C:\Users\HP\Desktop\New folder\my website\floor cleaner 1kg.jpg" height="400px" width="400px" >
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer" style="text-align: left;">
+          
+
+          <h3 style="color: blue;" class="mr-auto">₹380</h3>
+
+          <button data-toggle="popover" data-trigger="hover" type="button" class="btn btn-primary" title="Call at : 9460261999 " 
+          data-content="9460261999">Order Now</button>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+
+
+ 
+
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+ </div>
+
+
+
+
+
+<!--Address-->
+
+      <div class="col-sm-3 pt-5 mt-4 ">
+        <h5>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-house mt-n1" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+  <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+</svg>
+        ADDRESS</h5>
+        <div class="vl mb-2"></div>
+        <p>Krishna Soap Factory,Behind Chipa Building,<br> Bhupal Ganj, Bhilwara,<br> Rajasthan, 311001</p>
+      </div>
+
+<!--Contact us-->
+
+      <div class="col-sm-3 pt-5 mt-4 ">
+        <h5>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone mt-n1" viewBox="0 0 16 16">
+  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg>
+        CONTACT US</h5>
+        <div class="vl mb-2"></div>
+
+<p>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope ml-2" viewBox="0 0 16 16">
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+</svg>
+
+raghavsomani7557@gmail.com
+</p>
+
+
+      <p>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone ml-2" viewBox="0 0 16 16">
+  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg>
+      +9460261999</p>
+
+      <p>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone ml-2" viewBox="0 0 16 16">
+  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg>
++9352147099</p>
+      </div>
+
+</div>
+    </div>
+
+
+
+
+  <div class="col-sm-12 mb-n5 copy">
+    <div class="text-center text-light">
+    <p>© 2020 Copyright : Krishna Soap Factory</p>
+  </div>
+  </div>
+
+
+
+</footer>
+
+</body>
+</html>
